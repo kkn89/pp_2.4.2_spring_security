@@ -10,7 +10,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/")
-public class UserController {
+public class 	UserController {
 
 	@RequestMapping(value = "hello", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
